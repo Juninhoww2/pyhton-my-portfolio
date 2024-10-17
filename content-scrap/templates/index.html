@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TechCrunch Headlines</title>
+  </head>
+  <body>
+    <h1>TechCrunch Headlines</h1>
+    <ul>
+      {% for headline, link in headlines %}
+      <li><a href="{{ link }}">{{ headline }}</a></li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
