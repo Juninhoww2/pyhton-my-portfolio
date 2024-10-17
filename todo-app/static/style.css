@@ -1,0 +1,8 @@
+/* Add your CSS styling here */
+body {
+    font-family: sans-serif;
+}
+
+.completed {
+    text-decoration: line-through;
+}
